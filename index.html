@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!--Author: Angelique Joubert C22115-->
+<html>
+    <head>
+        <title>Big Screen Movies.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="project1.css"/><!-- links the stylesheet to the html page. -->
+    </head>
+    <body>
+       
+    <div class="movie"><img src="movie.jpg" alt="Movie of a outside cinema screen and people sitting in cares infront of the screen."></div><!-- image for top of the page. -->
+    <h1 id="hd1">Big Screen Movies.</h1>
+    <h1>Date and Times of Movies.</h1><!-- heading for form. -->
+    
+  <form><!-- form for users to be able to click what movie and date they want to book for. -->
+      
+    <label><!-- label that contains movie name and date and time -->
+    02/06/23 <input type="checkbox" name="movie" value="movie1" onclick="handleCheckboxClick(this)">Guardians of the Galaxy Vol. 3 - 18:00pm
+    </label>
+    <br><!-- break tag-->
+    
+    <br><!-- break tag-->
+    <label><!-- label that contains movie name and date and time -->
+     09/06/23  <input type="checkbox" name="movie" value="movie2" onclick="handleCheckboxClick(this)"> The Super Mario Bros. Movie - 18:00pm
+    </label>
+    <br><!-- break tag-->
+    
+    <br><!-- break tag-->
+    <label><!-- label that contains movie name and date and time -->
+     16/06/23 <input type="checkbox" name="movie" value="movie3" onclick="handleCheckboxClick(this)">  The Meg 2: The Trench - 18:00pm
+    </label>
+    <br><!-- break tag-->
+    
+    <br><!-- break tag-->
+    <label><!-- label that contains movie name and date and time -->
+     23/06/23  <input type="checkbox" name="movie" value="movie4" onclick="handleCheckboxClick(this)">  Peter Pan & Wendy - 18:00pm
+    </label>
+    <br><!-- break tag-->
+    
+    <br><!-- break tag-->
+    <label><!-- label that contains movie name and date and time -->
+     30/06/23  <input type="checkbox" name="movie" value="movie5" onclick="handleCheckboxClick(this)"> Fast X - 18:00pm
+    </label>
+  </form>
+    
+        <br><!-- break tag-->
+         <h1>Next Months Movies</h1><!-- heading for loop.-->
+         
+  <ol id="next-months-movies"></ol><!-- is for the movie next month array to to be able to print out(Loop). -->
+
+  <h1 id="hd2">Prices/Snack Box Choices.</h1>
+  <div id="parking"></div><!-- id to be able to style and print content to page.-->
+  <div id="snackb"></div><!-- id to be able to style and print content to page.-->
+  
+        <div id="result"></div><!-- id to be able to style and print content to page.-->
+        <br><!-- break tag-->
+
+        <button id="snackBoxflavours">Select Snack Box flavours.</button><!-- id to be able to style.-->
+        <br><!-- break tag-->
+        
+        <button id="pageUpdate" onClick="update()"> Click to view page last update. </button> <!--Button calls function that creates elements-->
+        <br><!-- break tag-->
+
+
+        <script src="project1.js"></script><!-- links the javascript page to the html page. -->
+    </body>
+</html>

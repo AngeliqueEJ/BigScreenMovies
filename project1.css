@@ -1,0 +1,157 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 07 May 2023, 09:55:47
+    Author : Angelique Joubert C22115
+*/
+/*style of body*/
+body{
+    background-color: #C2D1FF; /*background color of page*/
+}
+/*style of heading1*/
+#hd1{
+    text-align: center;
+}
+/*Image styling*/
+.movie {
+  height: 300px; /* height of image */
+  background-image: url(movie.jpg);/* links the image */
+  background-size: cover;/* cover the background in width */
+  background-position: center;/* center image */
+  text-align: center;/* center small image */
+  padding-top: 70px;/*small image position from top change */
+}
+
+/*style to be on the right side of page and is fixed to page.*/
+#hd2{
+  position: fixed;
+  right: 10px;
+  top: 60%;
+}
+/*style to be on the right side of page and is fixed to page.*/
+#result{
+  position: fixed;
+  right: 10px;
+  top: 70%;
+}
+/*style to be on the right side of page and is fixed to page.*/
+#parking{
+  position: fixed;
+  right: 10px;
+  top: 75%;
+}
+/*style to be on the right side of page and is fixed to page.*/
+#snackb{
+  position: fixed;
+  right: 10px;
+  top: 80%;
+}
+/*style to be on the right side of page and is fixed to page.*/
+#snackBoxflavours {
+  position: fixed;
+  right: 10px;
+  top: 85%;
+  background-color: #1F3D99;
+  color: white;
+
+}
+
+/*style to be on the right side of page and is fixed to page.*/
+#pageUpdate {
+  position: fixed;
+  right: 10px;
+  top: 90%;
+  background-color: #1F3D99;
+  color: white;
+
+}
+/*Image styling*/
+.snack {
+height: 300px; /* height of image */
+  background-image: url(snack.jpg);/* links the image */
+  background-size: cover;/* cover the background in width */
+  background-position: center;/* center image */
+  text-align: center;/* center small image */
+
+}
+
+/*styling for second html page*/
+/*styling button color*/
+#PopcornF1{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#Drink1{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#Sweet1{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#PopcornF2{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#Drink2{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#Sweet2{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#PopcornF3{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#Drink3{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#Sweet3{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#PopcornF4{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#Drink4{
+     background-color: #1F3D99;
+  color: white;
+}
+/*styling button color*/
+#Sweet4{
+     background-color: #1F3D99;
+  color: white;
+  text-align: center
+}
+/*styling for text next to each other*/
+.Sn3,
+.Sn4{
+  margin-right: 100px;
+}
+.two {
+  display: flex;
+}
+/*styling for text next to each other*/
+.Sn1,
+.Sn2{
+  margin-right: 100px;
+}
+.one {
+  display: flex;
+}
